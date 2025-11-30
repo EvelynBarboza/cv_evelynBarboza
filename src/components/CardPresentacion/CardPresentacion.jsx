@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../CardPresentacion/CardPresentacion.css";
 
 
-const CardPresentacion = ({textCardP, tituloP}) => {
+const CardPresentacion = ({textCardP, tituloP, children}) => {
     const [clicked, setClicked] = useState(false);
 
     const handleClick = () => {
@@ -17,6 +17,7 @@ const CardPresentacion = ({textCardP, tituloP}) => {
                 <h1>{tituloP}</h1>
                 <p>{textCardP}</p>
             </div>
+            <div className="contenedorCardPresentacion">{children}</div>
         </section>
         </>
     )

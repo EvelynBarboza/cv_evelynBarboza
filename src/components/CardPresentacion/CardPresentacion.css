@@ -1,8 +1,8 @@
 .cardPresentacion {
-    height: 250px;
-    width: 1100px;
+    height: 100px;
+    width: 1000px;
     border-style: solid;
-    border-color: rgb(35, 12, 45);
+    border-color: black;
     text-align: center; 
 }
 
@@ -12,3 +12,12 @@
     justify-content: center;
 
 }
+
+.logos {
+  height: 30px;
+  padding: 1%;
+  justify-content: center;
+  justify-items: center;  
+
+}
+/*border-color: rgb(35, 12, 45);*/

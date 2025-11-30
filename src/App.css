@@ -46,7 +46,8 @@
   background-color: black;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(237, 213, 246);
-
+  font-size: smaller;
+ 
 }
 
 .mifoto {
@@ -60,3 +61,4 @@
   filter: drop-shadow(0 0 2em #b504f0aa);
   
 }
+
